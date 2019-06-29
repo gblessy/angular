@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 
@@ -16,7 +17,7 @@ import { ServersComponent } from './servers/servers.component';
     SuccessAlertComponent,
     WarningAlertComponent
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
